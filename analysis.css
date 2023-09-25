@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out; /* Added transition for smooth color change */
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  /* Added styles for different moods */
+  .card[data-mood="Very Negative"] {
+    background-color: red;
+  }
+  
+  .card[data-mood="Negative"] {
+    background-color: orange;
+  }
+  
+  .card[data-mood="Neutral"] {
+    background-color: white;
+  }
+  
+  .card[data-mood="Positive"] {
+    background-color: blue;
+  }
+  
+  .card[data-mood="Very Positive"] {
+    background-color: green;
+  }
+  
